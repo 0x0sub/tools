@@ -2,8 +2,8 @@ from web3 import Web3
 from datetime import datetime, timezone
 
 # RPC 
-infura_url = "https://eth.llamarpc.com"
-web3 = Web3(Web3.HTTPProvider(infura_url))
+rpc_url = "https://eth.llamarpc.com"
+web3 = Web3(Web3.HTTPProvider(rpc_url))
 
 # List of addresses to check
 addresses = [
